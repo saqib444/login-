@@ -1,3 +1,4 @@
+
 .row{
   height:100%;
 }
@@ -11,6 +12,9 @@
   font-weight: 600;
 }
 .col-md-8{
+  height:100%;
+}
+.col-md-4{
   height:100%;
 }
 @media only screen and (max-width: 550px) {
@@ -29,14 +33,41 @@
         display: none;
       }
 }
+@media only screen and (max-width: 450px) {
+    .col-md-12{
+        width:100%;
+        height:100%;
+      }
+      @media only screen
+      and (max-width : 3418px)
+      and (max-width : 2153px)
+      #lefthead {
+        font-weight: 300;
+            font-size: 2vw;
+            font-family: sans-serif;
+      }
+}
 #lefthead{
-    font-size: -webkit-xxx-large;
+        font-weight: 300;
+            font-size: 3vw;
+            font-family: sans-serif;
+            margin-left: 30%;
 }
 #lefthead1{
-    font-size: -webkit-xxx-large;
+font-family: sans-serif;
+    color:#F8B43A;
+    font-weight: 300;
+        font-size: 3vw;
+
+}
+#message{
+  font-family: sans-serif;
+      font-weight: 300;
+          font-size: 1vw;
+            margin-left: 28%;
 }
 .content{
-  text-align: center;
+  margin-left: 1%;
 margin: auto;
 position: relative;
 top: calc(28% - 0px);
@@ -52,6 +83,8 @@ input[type=email] {
   background-color:	#F7F7F7;
   width: 45%;
   border: solid #F7F7F7;
+  border-radius: 7px;
+  border: 1px solid #E3DFDF;
 }
 input[type=password] {
   width: 100%;
@@ -62,38 +95,50 @@ input[type=password] {
   border-radius: 4px;
   background-color: 	#F7F7F7;
   border: solid #F7F7F7;
-  width: 45%
-  
+  width: 45%;
+  border-radius: 7px;
+  border: 1px solid #E3DFDF;
 }
+
 input[type=button]{
   background-color:#F8B43A;
-  width: 73px;
+  width: 100px;
     height: 33px;
     border: 0;
     color:antiquewhite;
+    border-radius: 7px;
 }
-.image-left.img{
-  width:88px;
+#sec8-0{
+  margin-top: 9%;
+  margin-left: 7%;
+}
+#sec8{
+      margin-left: 3%;
+}
+.image-left{
+  width: 115px;
+height: 125px;
+  margin-top: -60px;
 }
 .image-right{
-  width:90px;
-  margin-left:23%; 
+  width: 155px;
+margin-left: 23%;
+height: 160px;
 }
 #account-text{
   text-align: right;
       display: block;
-    margin-right: 35px;
+      margin-right: 17%;
+      font-weight: 600;
+      margin-top: 5%;
 }
 #sign{
   text-align: center;
       display: block;
 }
-img{
-  width:88px;
-}
 #sign-text{
-  font-size: 1.7vw;
-  margin-left: 14%;
+  font-size: 1.1vw;
+  margin-left: 7%;
 }
 #form-sec{
   text-indent: 3vw;
@@ -103,7 +148,15 @@ hr {
   -moz-float-edge: margin-box;
   color: gray;
   display: block;
-  height: 8%;
-  margin: 0.5em auto;
-  align="left"
+  width:45%;
+}
+#noacc{
+  color:#F8B43A;
+}
+#sec8-2{
+  margin-top: 7%;
+  margin-left: 3%;
+}
+#sec8-3{
+    margin-left: 3%;
 }
