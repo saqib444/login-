@@ -1,0 +1,109 @@
+.row{
+  height:100%;
+}
+.container {
+  background-image:url("./designassets/squares-background.svg");
+  background-repeat: no-repeat;
+  height:auto;
+  background-size: contain;
+  height:100%;
+  width:100%;
+  font-weight: 600;
+}
+.col-md-8{
+  height:100%;
+}
+@media only screen and (max-width: 550px) {
+    .container{
+        background-image: url("./designassets/background-with-squares.svg");
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .image-left{
+        display: none;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .image-right{
+        display: none;
+      }
+}
+#lefthead{
+    font-size: -webkit-xxx-large;
+}
+#lefthead1{
+    font-size: -webkit-xxx-large;
+}
+.content{
+  text-align: center;
+margin: auto;
+position: relative;
+top: calc(28% - 0px);
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color:	#F7F7F7;
+  width: 45%;
+  border: solid #F7F7F7;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+  background-color: 	#F7F7F7;
+  border: solid #F7F7F7;
+  width: 45%
+  
+}
+input[type=button]{
+  background-color:#F8B43A;
+  width: 73px;
+    height: 33px;
+    border: 0;
+    color:antiquewhite;
+}
+.image-left.img{
+  width:88px;
+}
+.image-right{
+  width:90px;
+  margin-left:23%; 
+}
+#account-text{
+  text-align: right;
+      display: block;
+    margin-right: 35px;
+}
+#sign{
+  text-align: center;
+      display: block;
+}
+img{
+  width:88px;
+}
+#sign-text{
+  font-size: 1.7vw;
+  margin-left: 14%;
+}
+#form-sec{
+  text-indent: 3vw;
+}
+hr {
+  -moz-box-sizing: border-box;
+  -moz-float-edge: margin-box;
+  color: gray;
+  display: block;
+  height: 8%;
+  margin: 0.5em auto;
+  align="left"
+}
