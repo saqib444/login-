@@ -17,58 +17,14 @@
 }
 #left {
   font-weight: 600;
-  margin-top: 45%;
+  margin-top: 47%;
   margin-left: 12%;
   text-align:center;
 
 }
-@media only screen and (max-width: 550px) {
-  /* For mobile phones: */
-  [id*="lefthead"] {
-    font-weight: 300;
-        font-size: 6vw;
-        font-family: sans-serif;
-  }
-
-}
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-@media only screen and (max-width: 550px) {
-    .container{
-        background-image: url("./designassets/background-with-squares.svg");
-    }
-}
-
-@media only screen and (max-width: 623px) {
-    .image-left{
-        display: none;
-    }
-}
-@media only screen and (max-width: 623px) {
-    .image-right{
-        display: none;
-      }
-}
-@media only screen and (max-width: 450px) {
-    .col-md-12{
-        width:100%;
-        height:100%;
-      }
-      @media only screen
-      and (max-width : 3418px)
-      and (max-width : 2153px)
-      #lefthead {
-        font-weight: 300;
-            font-size: 2vw;
-            font-family: sans-serif;
-      }
-}
 #lefthead{
         font-weight: 300;
-            font-size: 3vw;
+            font-size: 4vw;
             font-family: sans-serif;
 
 }
@@ -76,29 +32,28 @@
 font-family: sans-serif;
     color:#F8B43A;
     font-weight: 300;
-        font-size: 3vw;
+        font-size: 4vw;
 
 }
 #message{
   font-family: sans-serif;
       font-weight: 300;
-          font-size: 1vw;
+          font-size: 1.3vw;
 }
 input[type=email] {
-  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 2px solid red;
   border-radius: 4px;
   background-color:	#F7F7F7;
-  width: 45%;
+  width: 50%;
   border: solid #F7F7F7;
   border-radius: 7px;
   border: 1px solid #E3DFDF;
+  height: fit-content;
 }
 input[type=password] {
-  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -106,9 +61,10 @@ input[type=password] {
   border-radius: 4px;
   background-color: 	#F7F7F7;
   border: solid #F7F7F7;
-  width: 45%;
+  width: 50%;
   border-radius: 7px;
   border: 1px solid #E3DFDF;
+  height: fit-content;
 }
 
 input[type=button]{
@@ -127,14 +83,14 @@ input[type=button]{
       margin-left: 3%;
 }
 .image-left{
-  width: 115px;
-height: 125px;
+  width: 105px;
+height: 115px;
   margin-top: -60px;
 }
 .image-right{
-  width: 155px;
+  width: 120px;
 margin-left: 23%;
-height: 160px;
+height: 130px;
 }
 #account-text{
   text-align: right;
@@ -170,4 +126,81 @@ hr {
 }
 #sec8-3{
     margin-left: 3%;
+}
+#eml{
+  text-align: left;
+}
+#pwd{
+  text-align: left;
+}
+@media (min-width: 100px) and (max-width: 988px){
+    .container{
+        background-image: url("./designassets/background-with-squares.svg");
+    }
+    #sec8-0{
+      text-align: center;
+    }
+    .image-left{
+      display: none;
+    }
+    .image-right{
+      display: none;
+    }
+    input[type=password]{
+      width:88%;
+      height: 12%;
+    }
+    input[type=email]{
+      width:88%;
+      height: 12%;
+    }
+    input[type=button]{
+      width:100%;
+      height: 12%;
+    }
+    #eml{
+      text-align: left;
+      font-size: 3vw;
+      margin-right:90%;
+    }
+    #pwd{
+      text-align: left;
+      font-size: 3vw;
+      margin-right:84%;
+    }
+    #account-text{
+      text-align: right;
+      display: block;
+      margin-right: 21%;
+      font-weight: 600;
+      font-size: 4vw;
+    }
+    #sign-text{
+      font-size: 9vw;
+      margin-left: -4%;
+
+    }
+    #sec8{
+      margin:0px;
+      text-align: center;
+    }
+    hr{
+      width: 97%;
+      margin-top: -3px;
+    }
+    .col-md-4{
+      height:50%;
+    }
+    .col-md-8{
+      height: 50%;
+    }
+    #message{
+      font-size: 5vw;
+    }
+    #lefthead{
+      font-size: 8vw;
+    }
+    #lefthead1{
+      font-size: 8vw;
+    }
 }
